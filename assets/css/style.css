@@ -1,0 +1,45 @@
+header{
+    height: 50px;
+    background-color:cadetblue;
+}
+
+.header-link-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body
+{
+
+}
+
+.main-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    position: relative;
+    top: 15px;
+}
+
+
+footer{
+    height: 50px;
+    background-color:beige;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
