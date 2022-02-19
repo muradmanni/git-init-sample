@@ -9,15 +9,15 @@
 
   <body>
     <header>
-        <nav>
+        <nav class="text-right">
             <ul>
-                <li>
-                    <a class="header-link-text" href="">Home</a>
+                <li class="li-pos">
+                    <a class="header-link-text a-pos" href="https://www.google.com">Home</a>
                 </li>
-                <li>
-                    <a class="header-link-text" href="">Gallery</a>
+                <li class="li-pos">
+                    <a class="header-link-text" href="https://www.youtube.com">Gallery</a>
                 </li>
-                <li>
+                <li class="li-pos">
                     <a class="header-link-text" href="">FAQs</a>
                 </li>
             </ul>
@@ -25,17 +25,31 @@
     </header>
 
     <main>
+        <h1 class="text-center">Intro about me</h1>
+        <figure>
+            <img src="./assets/images/image_1.png" width="400px" height="400px" alt="Graphic with Coming Soon text">
+            <figcaption class="text-center">I love exploring nature and sitting in peace thinking about universe.</figcaption>
+        </figure>
+    
         <section>
-        <h1 class="main-heading">Intro about me</h1>
-        
-        <figure><img scr="" alt=/></figure>
-    </section>
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+              <ul>
+                <li>
+                  <label class="text-right" for="name">Name:</label>
+                  <input type="text" id="name" name="user-name">
+                </li>
+                <li>
+                  <label class="text-right" for="email">Email:</label>
+                  <input type="text" id="email" name="user-email">
+                </li>
+              </ul>
+              <div class="text-center">
+                <button type="submit">SEND</button>
+              </div>
+            </form>
+          </section>
 
-    <section>
-        <div>
-            <h3>Contact information</h3>
-        </div>
-    </section>
     </main>
     
     <footer>
