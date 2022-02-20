@@ -91,6 +91,7 @@ button {
 footer{
     height: 50px;
     background-color:beige;
+    background-color:  cadetblue;
     position: fixed;
     bottom: 0;
     width: 100%;
